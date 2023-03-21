@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Playfair+Display&family=Unica+One&display=swap');
+.navbar {
+  background-color: #D92525;
+  
+}
+
+.navbar .navbar-brand {
+  font-family: 'Climate Crisis', cursive;
+  font-size: 24px;
+  color: #F2F2F2;
+}
+
+.navbar .nav > li > a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar .nav > li.active > a,
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li.active > a:focus {
+  background-color: #fff;
+  color: #008CBA;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  background-color: #fff;
+  color: #008CBA;
+}
+
+.tab-content #home_page {
+          background-image: url("www/home.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+
+.border_chart {
+  border: 5px solid #D92525;
+}
+
+input[type="submit"] {
+  background-color: orange !important;
+}
+input[type="submit"] {
+  color: #F2F2F2 !important;
+}
+
+body {
+  background-color: #044040;
+}
+
+h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #F2F2F2;
+}
+
+p{
+  color: #F2F2F2;
+  font-family: 'Kanit', sans-serif;
+  font-size:  18px;
+}
